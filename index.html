@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnVision 2.0.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional inline styles for navigation and other elements */
+        nav ul li a:hover {
+            background-color: #444;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+    </style>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="banner">
+            <h1>Welcome to EnVision 2.0.1</h1>
+            <p>Your ultimate interactive engine for RPG-style scenarios</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#chatbot">Chatbot</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>EnVision 2.0.1 is an interactive engine for RPG-style scenarios, functioning as the game master. Users play characters, influencing the story through decisions and actions.</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>EnVision is designed to provide a dynamic and customizable gameplay experience, ensuring a captivating narrative flow with user-driven interactions. Our system is tailored to offer:</p>
+            <ul>
+                <li>Comprehensive game master functionalities to guide the narrative.</li>
+                <li>Customizable scenarios and narratives to suit player preferences.</li>
+                <li>Dynamic interaction management that responds to player decisions.</li>
+                <li>Enhanced storytelling capabilities to create immersive experiences.</li>
+            </ul>
+            <p>With EnVision, every adventure is unique, driven by the players' choices and actions, making each session an unforgettable journey.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul class="features-list">
+                <li><strong>Interactive Storytelling:</strong> Tailor stories based on player choices, ensuring a personalized narrative experience.</li>
+                <li><strong>User Profiles:</strong> Store player preferences, past interactions, and progress for a seamless experience.</li>
+                <li><strong>Dynamic Weight Adjustment:</strong> Adjust game elements dynamically based on user feedback and interactions.</li>
+                <li><strong>Scenario Templates:</strong> Access a library of pre-made scenarios, ready to be customized and played.</li>
+                <li><strong>Performance Metrics:</strong> Track and display success rates and completion times to monitor progress.</li>
+                <li><strong>Advanced Narrative Control:</strong> Manage branching storylines and conditional logic to create complex narratives.</li>
+                <li><strong>Visual References:</strong> Request visual references to enhance the scenario experience and immersion.</li>
+                <li><strong>Dynamic Creativity:</strong> Enhance narrative depth, engagement, and immersion with creative elements.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For feedback and support, email us at <a href="mailto:dummy@email.com">dummy@email.com</a>.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="cta-button">Send Feedback</button>
+            </form>
+        </section>
+        <section id="chatbot">
+            <h2>Chat with EnVision</h2>
+            <button class="cta-button" onclick="openChatbot()">Open Chatbot</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EnVision 2.0.1. All rights reserved.</p>
+    </footer>
+    <script>
+        function openChatbot() {
+            window.open('https://chatgpt.com/g/g-FCiHlYSLg-envision/c/97b9fbde-1eca-423c-8eb3-e5f5038daafe', '_blank');
+        }
+    </script>
+</body>
+</html>
